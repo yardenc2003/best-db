@@ -2,9 +2,6 @@ package workspace.dbScope.tableScope;
 
 import lombok.Data;
 import lombok.SneakyThrows;
-import workspace.dbScope.tableScope.recordScope.CellInfo;
-import workspace.dbScope.tableScope.recordScope.DataType;
-import workspace.dbScope.tableScope.recordScope.Key;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -30,10 +27,8 @@ public class Table implements TableQueries {
         // other cells settings
         AtomicInteger counter = new AtomicInteger(0);
         // saves info about the cells (type & index)
-        dataTypeMap.forEach((cellName, cellType) -> {
-            cellInfoMap.put(cellName, new CellInfo(cellType.type,
-                    counter.getAndIncrement()));
-        });
+        dataTypeMap.forEach((cellName, cellType) -> cellInfoMap.put(cellName, new CellInfo(cellType.type,
+                counter.getAndIncrement())));
     }
 
     public void printTestings() {

@@ -1,7 +1,7 @@
 package workspace;
 
 import workspace.dbScope.DBMS;
-import workspace.dbScope.tableScope.recordScope.DataType;
+import workspace.dbScope.tableScope.DataType;
 
 import java.util.Date;
 import java.util.HashMap;

@@ -1,6 +1,6 @@
 package workspace.dbScope;
 
-import workspace.dbScope.tableScope.recordScope.DataType;
+import workspace.dbScope.tableScope.DataType;
 
 import java.util.Map;
 

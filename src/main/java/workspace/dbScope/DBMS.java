@@ -1,7 +1,7 @@
 package workspace.dbScope;
 
 import lombok.Data;
-import workspace.dbScope.tableScope.recordScope.DataType;
+import workspace.dbScope.tableScope.DataType;
 import workspace.dbScope.tableScope.Table;
 
 import java.util.HashMap;

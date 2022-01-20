@@ -1,4 +1,4 @@
-package workspace.dbScope.tableScope.recordScope;
+package workspace.dbScope.tableScope;
 
 import java.util.Date;
 

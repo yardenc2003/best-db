@@ -1,4 +1,4 @@
-package workspace.dbScope.tableScope.recordScope;
+package workspace.dbScope.tableScope;
 
 import lombok.Builder;
 import lombok.Data;
