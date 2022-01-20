@@ -9,7 +9,8 @@ public class DBMS implements DBQueries {
     private Map<String, Table> scheme = new HashMap<>(); // one scheme per dbms for now
 
     @Override
-    public void createTable(String tableName, String keyName, Map<String, CellInfo> cellInfoMap) {
-        this.scheme.put(tableName, new Table(keyName, cellInfoMap));
+    public void createTable(String tableName, String keyName, Map<String, DataType> dataTypeMap){
+        this.scheme.put(tableName, new Table(keyName, dataTypeMap));
+        this.scheme.get(tableName).printTestings();
     }
 }

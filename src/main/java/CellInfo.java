@@ -5,5 +5,5 @@ import lombok.Data;
 @Data
 public class CellInfo {
     private Class<?> type;
-    private int index;
+    private int index = 0;
 }
