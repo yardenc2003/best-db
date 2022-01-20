@@ -1,3 +1,5 @@
+package workspace.dbScope.tableScope.recordScope;
+
 import lombok.Builder;
 import lombok.Data;
 
@@ -5,5 +7,5 @@ import lombok.Data;
 @Data
 public class CellInfo {
     private Class<?> type;
-    private int index = 0;
+    private int index;
 }

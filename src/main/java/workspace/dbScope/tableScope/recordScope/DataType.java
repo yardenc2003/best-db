@@ -1,6 +1,8 @@
+package workspace.dbScope.tableScope.recordScope;
+
 import java.util.Date;
 
-enum DataType {
+public enum DataType {
     STRING(String.class),
     INT(Integer.class),
     DATE(Date.class);
